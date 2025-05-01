@@ -1,7 +1,7 @@
 Для того, чтобы запустить проект необходимо прописать в консоли в корне проекта:
 
 ```
-node server/server.cjs
+node server\server.cjs
 
 yarn build
 
