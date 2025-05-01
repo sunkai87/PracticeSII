@@ -1,0 +1,42 @@
+.container {
+  min-width: 200vh;
+  min-height: 50vh;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #5e574b;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hint {
+  text-align: center;
+  margin-top: 1rem;
+  color: #8d8374;
+}
+
+.progressWrap {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.bar {
+  height: 20px;
+  background: #e3d9c7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.inner {
+  height: 100%;
+  background: #b29b7e;
+  transition: width 0.5s;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+}

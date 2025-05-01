@@ -1,0 +1,32 @@
+.head {
+  background: #f0e9dd;
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #8e7d67;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #5e574b;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.nav a:hover {
+  background: #e7decf;
+}
+
+.active {
+  background: #b29b7e;
+  color: #fff !important;
+}

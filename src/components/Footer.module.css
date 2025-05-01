@@ -1,0 +1,40 @@
+.footerContainer {
+    position: relative;
+    min-height: 150px;
+    /* Пусть будет явно высота, чтобы всё влезло */
+    overflow: hidden;
+  }
+  
+
+  
+  /* Светло-голубой (или ближе к белому) для контраста */
+  .footerText {
+    color: #d0ecff;
+    font-size: 10rem;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  
+  /* Размытая картинка */
+  .footerBackground {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url('/horse.jpg') no-repeat center/cover;
+    filter: blur(4px);
+    z-index: 1;
+  }
+  
+  /* Контент */
+  .footerContent {
+    position: relative;
+    z-index: 2;
+    color: #e0f7ff;
+    font-size: 1.2rem;
+    /* или #e0f7ff — по вкусу */
+    text-align: center;
+    padding: 2rem;
+  }
+
+  

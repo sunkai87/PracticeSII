@@ -1,0 +1,61 @@
+.wrap {
+  max-width: 500vh;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #5e574b;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #8e7d67;
+}
+
+.lead {
+  margin: 1.2rem auto 2.5rem;
+  max-width: 600vh;
+  line-height: 1.5;
+  font-size: 1.05rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 220px;
+  background: #f6f2ea;
+  border: 2px solid #d4c7b3;
+  border-radius: 16px;
+  padding: 1.3rem;
+}
+
+.num {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 50%;
+  background: #b29b7e;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2.5rem;
+  background: #b29b7e;
+  color: #fff;
+  padding: 0.8rem 2.4rem;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background: #8e7d67;
+}
